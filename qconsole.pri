@@ -1,4 +1,3 @@
-
 HEADERS += \
 	$$PWD/qconsole.h
 
@@ -11,6 +10,8 @@ win32 {
 }
 
 INCLUDEPATH += $$PWD
+
+# TODO Uncomment and amend when using a namespaced Qt: DEFINES += QT_NAMESPACE=OurQtNamespace
 
 QDEP_PACKAGE_EXPORTS += Q_CONSOLE_EXPORT
 !qdep_build: DEFINES += "Q_CONSOLE_EXPORT="

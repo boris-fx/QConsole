@@ -1,8 +1,7 @@
 #ifndef QCONSOLE_H
 #define QCONSOLE_H
 
-#include <QtCore/QIODevice>
-class QFile;
+#include <QtCore/QFile>
 #ifdef Q_OS_WIN
 class ReadThread;
 #else
